@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reel Secret Fish</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <script src="./components_svg/topNavDecor.js"></script>
+    <script src="./components_svg/topCardDecorXl.js"></script>
+    <script src="./components_svg/topSecondDecor.js"></script>
+    <script src="./components_svg/topCardDecor.js"></script>
+    <script src="./components_svg/topCardDecorLight.js"></script>
+    <script src="./components_svg/bottomNavDecor.js"></script>
+    <script src="./components_svg/bottomSecondDecor.js"></script>
+    <script src="./components_svg/bottomCardDecor.js"></script>
+    <script src="./components_svg/bottomCardDecorXl.js"></script>
+
+    <script src="./script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#F1F1F1] overflow-x-hidden">
+    <!-- Navigation -->
+    <div>
+      <div class="flex flex-col -mb-px">
+        <div id="nav-top-decor" class="hidden sm:block"></div>
+        <nav class="flex justify-between items-center px-12 py-5 w-full top-2.5 absolute text-[20px]">
+          <div class="flex justify-evenly w-[40vw]">
+            <a href="./homepage.html" class="text-[#333] font-bold text-[15px]">Homepage</a>
+            <a href="./about-us.html" class="text-[#333] font-bold text-[15px] hover:text-[#00c4a7] transition-colors">About Us</a>
+          </div>
+          <div class="flex justify-evenly w-[40vw]">
+            <a href="./services.html" class="text-[#333] font-bold text-[15px] hover:text-[#00c4a7] transition-colors">Services</a>
+            <a href="./contact-us.html" class="active font-bold text-[15px] hover:text-[#00c4a7] transition-colors">Contact Us</a>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero Section -->
+      <section class="relative bg-white -mb-[17px] px-10 py-10 md:px-[60px] lg:px-[120px] xl:px-[165px] md:py-10 pt-32 flex justify-center items-center">
+        <h1 class="text-[80px] font-extrabold text-[#162127] text-center">Contact Us</h1>
+      </section>
+      <div id="nav-bottom-decor" class="hidden sm:block"></div>
+    </div>
+
+    <!-- Get in Touch Section -->
+    <section class="bg-[#f0f0f0] py-20 px-5 md:px-[60px] lg:px-[120px] xl:px-[165px]">
+      <div class="max-w-[1300px] mx-auto">
+        <h2 class="text-[40px] md:text-[50px] font-extrabold mb-16 text-[#162127] text-center">Get in Touch</h2>
+
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-12">
+          <!-- Left: Cards -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full lg:w-1/2">
+            <!-- Card 1 -->
+            <div>
+              <div class="bg-[#162127] rounded-xl p-5 flex items-center gap-4 -mb-2.5">
+                <img src="./svg/light.svg" alt="icon" class="w-10 h-10" />
+                <div>
+                  <h3 class="text-white font-bold text-md mb-1">Optimal Strategies</h3>
+                  <p class="text-white text-sm">Trusted methods that boost your chances.</p>
+                </div>
+              </div>
+              <!-- Card decor-->
+              <div id="nav-card-decor" class="hidden sm:block"></div>
+            </div>
+
+            <!-- Card 2 -->
+
+            <div>
+              <div class="bg-[#162127] rounded-xl p-5 flex items-center gap-4 -mb-2.5">
+                <img src="./svg/hand.svg" alt="icon" class="w-10 h-10" />
+                <div>
+                  <h3 class="text-white font-bold text-md mb-1">Clear Guidance</h3>
+                  <p class="text-white text-sm">Step-by-step help to reach your goals.</p>
+                </div>
+              </div>
+              <!-- Card decor-->
+              <div id="nav-card-decor" class="hidden sm:block"></div>
+            </div>
+
+            <!-- Card 3 -->
+            <div>
+              <div class="bg-[#162127] rounded-xl p-5 flex items-center gap-4 -mb-2.5">
+                <img src="./svg/star.svg" alt="icon" class="w-10 h-10" />
+                <div>
+                  <h3 class="text-white font-bold text-md mb-1">Expert Experiences</h3>
+                  <p class="text-white text-sm">Team with RNG experience on your side.</p>
+                </div>
+              </div>
+              <!-- Card decor-->
+              <div id="nav-card-decor" class="hidden sm:block"></div>
+            </div>
+
+            <!-- Card 4 -->
+            <div>
+              <div class="bg-[#162127] rounded-xl p-5 flex items-center gap-4 -mb-2.5">
+                <img src="./svg/time.svg" alt="icon" class="w-10 h-10" />
+                <div>
+                  <h3 class="text-white font-bold text-md mb-1">Real-Time Updates</h3>
+                  <p class="text-white text-sm">Stay informed and in control anytime.</p>
+                </div>
+              </div>
+              <!-- Card decor-->
+              <div id="nav-card-decor" class="hidden sm:block"></div>
+            </div>
+          </div>
+
+          <!-- Right: Form -->
+          <div class="w-full lg:w-1/2">
+            <div id="contact-top-decor"></div>
+            <div class="relative bg-white p-8 border-5 border-t-0 border-[#00d9b8] rounded-xl shadow-sm -mt-10">
+              <form>
+                <div class="mb-5">
+                  <label for="name" class="block font-semibold mb-2 text-md">Name</label>
+                  <input type="text" id="name" name="name" required class="w-full p-3 border border-[#ddd] rounded-md text-sm" />
+                </div>
+                <div class="mb-5">
+                  <label for="email" class="block font-semibold mb-2 text-md">Email</label>
+                  <input type="email" id="email" name="email" required class="w-full p-3 border border-[#ddd] rounded-md text-sm" />
+                </div>
+                <div class="mb-5">
+                  <label for="message" class="block font-semibold mb-2 text-md">Message</label>
+                  <textarea id="message" name="message" required class="w-full p-3 border border-[#ddd] rounded-md text-sm min-h-[120px]"></textarea>
+                </div>
+                <button class="bg-[#28E097] text-white font-semibold py-3 px-3 mt-3 rounded-md text-md w-full sm:w-auto hover:bg-[#00c4a7] transition-colors">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div>
+      <footer class="bg-[#162127] py-16 px-10 md:px-[60px] lg:px-[120px] xl:px-[165px] -mt-[17px]">
+        <div class="max-w-[1400px] mx-auto">
+          <div class="flex justify-center gap-8 mb-8">
+            <a href="#" class="w-[60px] h-[60px] bg-[#28E097] rounded-full flex items-center justify-center hover:bg-[#00c4a7] transition-colors">
+              <i class="fab fa-linkedin-in text-white text-2xl"></i>
+            </a>
+            <a href="#" class="w-[60px] h-[60px] bg-[#28E097] rounded-full flex items-center justify-center hover:bg-[#00c4a7] transition-colors">
+              <i class="fab fa-whatsapp text-white text-2xl"></i>
+            </a>
+            <a href="#" class="w-[60px] h-[60px] bg-[#28E097] rounded-full flex items-center justify-center hover:bg-[#00c4a7] transition-colors">
+              <i class="fab fa-instagram text-white text-2xl"></i>
+            </a>
+          </div>
+
+          <!-- Copyright -->
+          <p class="text-white text-center text-sm font-medium">@MUHAMMADRIFQI ALL RIGHT RESERVED</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="./animate.js"></script>
+</html>
